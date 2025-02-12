@@ -1,0 +1,22 @@
+site_name: Documentación de Proyectos
+site_url: http://github.com/odelima2025/Desarrollo_de_Interfaces/
+docs_dir: 'docs_src'
+site_dir: 'docs'
+theme:
+#  name: 'material'
+  name: 'readthedocs'
+plugins:
+  - search
+  - pdf-export:
+      enabled_if_env: ENABLE_PDF_EXPORT
+      media_type: print
+nav:
+  - PySide6-Hola_Mundo: README.md
+  - Manual de Usuario: Manual_de_Usuario.md
+  - Guía de Referencia: Guia_de_Referencia.md
+  - Guía de Instalación: Guia_de_Instalacion.md
+  - About: ABOUT.md
+  - Descargas:
+      - Manual de Usuario PDF: PDF/Manual_de_Usuario.pdf
+      - Guía de Referencia PDF: PDF/Guia_de_Referencia.pdf
+      - Guía de Instalación PDF: PDF/Guia_de_Instalacion.pdf
